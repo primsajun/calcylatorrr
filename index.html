@@ -21,43 +21,48 @@
                 <div class="row g-2 mb-2">
                     <div class="col-3"><button class="btn btn-danger w-100" onclick="clearAll()">AC</button></div>
                     <div class="col-3"><button class="btn btn-warning w-100" onclick="backspace()">⌫</button></div>
+                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('**')">x<sup>y</sup></button></div>
                     <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('%')">%</button></div>
-                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('/')">/</button></div>
+                    
                 </div>
                 
                 <div class="row g-2 mb-2">
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(7)">7</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(8)">8</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(9)">9</button></div>
-                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('*')">×</button></div>
+                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('/')">/</button></div>
+                    
                 </div>
                 
                 <div class="row g-2 mb-2">
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(4)">4</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(5)">5</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(6)">6</button></div>
-                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('-')">-</button></div>
+                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('*')">×</button></div>
+                 
                 </div>
                 
                 <div class="row g-2 mb-2">
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(1)">1</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(2)">2</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(3)">3</button></div>
-                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('+')">+</button></div>
+                       <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('-')">-</button></div>
+                    
                 </div>
                 
                 <div class="row g-2">
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendNumber(0)">0</button></div>
                     <div class="col-3"><button class="btn btn-light w-100" onclick="appendDecimal()">.</button></div>
                     <div class="col-3"><button class="btn btn-info w-100" onclick="calculateSquareRoot()">√</button></div>
-                    <div class="col-3"><button class="btn btn-success w-100" onclick="calculate()">=</button></div>
+                    <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('+')">+</button></div>
+                   
                 </div>
                 
                 <div class="row g-2 mt-2">
                     <div class="col-3"><button class="btn btn-info w-100" onclick="appendOperator('**')">x<sup>y</sup></button></div>
                     <div class="col-3"><button class="btn btn-info w-100" onclick="calculateSquare()">x<sup>2</sup></button></div>
                     <div class="col-3"><button class="btn btn-info w-100" onclick="calculateCube()">x<sup>3</sup></button></div>
-                    <div class="col-3"><button class="btn btn-warning w-100" onclick="backspace()">⌫</button></div>
+                     <div class="col-6"><button class="btn btn-success w-100" onclick="calculate()">=</button></div>
                 </div>
             </div>
         </div>
